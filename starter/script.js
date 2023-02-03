@@ -793,10 +793,10 @@ console.log(finalAges);
 //todo: Continue & Break Statements
 
 //? Continue Statement
-//* Continue Statement is used to exit the current iteration of the loop & continue from the next iteration.
+//* Continue Statement is used to exit (skip) the current iteration of the loop & continue from the next iteration until the condition is found.
 
 //? Break Statement
-//* Break Statement is used to completely terminate the whole loop.
+//* Break Statement is used to completely terminate the whole loop once the condition is found.
 
 //? Using Continue Statement to only print the items / elements in the array ujjwalArr which are string type.
 console.log("------ ONLY STRINGS ------");
@@ -890,5 +890,3 @@ while (dice !== 6) {
     console.log("Loop is about to end...");
   }
 }
-
-//
