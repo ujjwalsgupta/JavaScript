@@ -141,3 +141,27 @@ const myCountryz = {
 
 console.log(myCountryz.describe());
 console.log(myCountryz.checkIsland());
+
+//? Assignment 10
+
+for (let i = 1; i <= 50; i++) {
+  console.log(`Voter number ${i} is currently voting`);
+}
+
+//? Assignment 11
+
+const populationsz = [1380, 1460, 660, 154];
+
+const worldPopulationz = 7800;
+
+const percentages2 = [];
+
+for (let i = 0; i < populationsz.length; i++) {
+  const percentageOfWorldx = function (pop) {
+    return (pop / worldPopulationz) * 100;
+  };
+  const percent = percentageOfWorldx(populationsz[i]);
+  percentages2.push(percent);
+}
+
+console.log(percentages2);
