@@ -152,7 +152,7 @@ for (let i = 1; i <= 50; i++) {
 
 const populationsz = [1380, 1460, 660, 154];
 
-const worldPopulationz = 7800;
+const worldPopulationz = 7900;
 
 const percentages2 = [];
 
