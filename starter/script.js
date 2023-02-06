@@ -877,7 +877,7 @@ while (rep <= 10) {
   rep++;
 }
 
-//! NOTE: while Loop is more versatile (can be used in larger variety of situations) than for Loop because it does not force us to use a counter, there is only condition which is needed & depending on the question / speciific situation we can use or not use counter.
+//! NOTE: while Loop is more versatile (can be used in larger variety of situations) than for Loop because it does not force us to use a counter, there is only condition which is needed & depending on the question / specific situation we can use or not use counter.
 
 //? Challenge
 //* Rolling a dice until we get 6. & when we roll a 6, we stop.
