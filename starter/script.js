@@ -879,6 +879,9 @@ while (rep <= 10) {
 
 //! NOTE: while Loop is more versatile (can be used in larger variety of situations) than for Loop because it does not force us to use a counter, there is only condition which is needed & depending on the question / specific situation we can use or not use counter.
 
+let dicex = 1;
+while (dicex !== 6) {}
+
 //? Challenge
 //* Rolling a dice until we get 6. & when we roll a 6, we stop.
 
