@@ -179,3 +179,20 @@ for (let i = 0; i < listOfNeighbors.length; i++) {
     console.log(`Neighbour: ${listOfNeighbors[i][j]}`);
   }
 }
+
+//? Assignment 13
+
+const populationszx = [1380, 1460, 660, 154];
+
+const worldPopulationzx = 7900;
+
+const percentages3 = [];
+
+let i = 0;
+while (i < populationszx.length) {
+  const percentageOfWorld1 = function (populationOneByOne) {
+    const worldPopulationzz = populationOneByOne / worldPopulationzx;
+    return worldPopulationzz;
+  };
+  percentageHaiBey = percentageOfWorld1(populationszx[i]);
+}
