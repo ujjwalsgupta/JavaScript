@@ -165,3 +165,17 @@ for (let i = 0; i < populationsz.length; i++) {
 }
 
 console.log(percentages2);
+
+//? Assignment 12
+
+const listOfNeighbors = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
+
+for (let i = 0; i < listOfNeighbors.length; i++) {
+  for (let j = 0; j < listOfNeighbors[i].length; j++) {
+    console.log(`Neighbour: ${listOfNeighbors[i][j]}`);
+  }
+}
