@@ -885,7 +885,7 @@ while (rep <= 10) {
 let dice = Math.trunc(Math.random() * 6) + 1;
 // a method for generating random number from 1 to 6.
 // .random generates random decimal number between 0 & 1.
-// .trunc is used to turncate (remove) to the nearest integer.
+// .trunc is used to turncate truncates (cuts off) the dot and the digits to the right of it, no matter whether the argument is a positive or negative number.
 while (dice !== 6) {
   console.log(`You rolled a ${dice}`);
   dice = Math.trunc(Math.random() * 6) + 1; // reassigning the value of dice after running the loop.
