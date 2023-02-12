@@ -190,13 +190,13 @@ const percentages3 = [];
 
 let i = 0;
 while (i < populationszx.length) {
-  const percentageOfWorld1 = function (populationOneByOne) {
+  const percentageOfWorld1x = function (populationOneByOne) {
     const worldPopulationzz = (populationOneByOne / worldPopulationzx) * 100;
     return worldPopulationzz;
   };
-  percentageHaiBey = percentageOfWorld1(populationszx[i]);
+  percentageHaiBey = percentageOfWorld1x(populationszx[i]);
 
-  percentages3.push[percentageHaiBey];
+  percentages3.push(percentageHaiBey);
   i++;
 }
 
