@@ -195,4 +195,8 @@ while (i < populationszx.length) {
     return worldPopulationzz;
   };
   percentageHaiBey = percentageOfWorld1(populationszx[i]);
+
+  percentages3.push[percentageHaiBey];
 }
+
+console.log(percentages3);
