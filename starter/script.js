@@ -888,5 +888,5 @@ while (dice !== 6) {
   dice = Math.trunc(Math.random() * 6) + 1; // reassigning the value of dice after running the loop.
   if (dice === 6) {
     console.log("Loop is about to end...");
-  }z
+  }
 }
