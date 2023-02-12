@@ -879,13 +879,13 @@ while (rep <= 10) {
 
 //! NOTE: while Loop is more versatile (can be used in larger variety of situations) than for Loop because it does not force us to use a counter, there is only condition which is needed & depending on the question / specific situation we can use or not use counter.
 
-let dicex = 1;
-while (dicex !== 6) {}
-
 //? Challenge
 //* Rolling a dice until we get 6. & when we roll a 6, we stop.
 
-let dice = Math.trunc(Math.random() * 6) + 1; // a method for generating random number from 1 to 6.
+let dice = Math.trunc(Math.random() * 6) + 1;
+// a method for generating random number from 1 to 6.
+// .random generates random decimal number between 0 & 1.
+// .trunc is used to turncate (remove) to the nearest integer.
 while (dice !== 6) {
   console.log(`You rolled a ${dice}`);
   dice = Math.trunc(Math.random() * 6) + 1; // reassigning the value of dice after running the loop.
